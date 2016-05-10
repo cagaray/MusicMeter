@@ -1,0 +1,35 @@
+header{
+  background-image: url(../img/background.jpg);
+}
+
+/*.yellow-outline{
+  text-shadow: 0px 1px 0px #fed136;
+  text-shadow: 0px -1px 0px #fed136;
+  color: #fed136;
+}
+
+a .yellow-outline{
+  color: #fed136;
+}*/
+
+.intro-lead-in{
+  font-size: 10px;
+}
+
+.timeline-image{
+  background-color: #ffffff;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}

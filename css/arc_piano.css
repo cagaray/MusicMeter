@@ -1,0 +1,14 @@
+.key {
+  stroke-width: 1.5px;
+  transition: fill 250ms linear, stroke 250ms linear;
+  transition-delay: 150ms;
+}
+
+.key:hover {
+  transition-delay: 0;
+}
+
+.key--white { fill: #fff; stroke: #777; }
+.key--black { fill: #333; stroke: #000; }
+.key--white:hover { fill: cyan; stroke: #00999b; }
+.key--black:hover { fill: magenta; stroke: #910099; }
